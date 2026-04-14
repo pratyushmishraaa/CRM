@@ -1,0 +1,435 @@
+2026-04-09 17:08:35 [info]: BullMQ queues initialized (Redis-dependent features will be skipped if Redis is offline)
+2026-04-09 17:08:36 [info]: Bull Board mounted at /admin/queues
+2026-04-09 17:08:36 [warn]: Queue [email] error: 
+2026-04-09 17:08:36 [warn]: Queue [ai-processing] error: 
+2026-04-09 17:08:36 [warn]: Queue [reminders] error: 
+2026-04-09 17:08:36 [warn]: Queue [notifications] error: 
+2026-04-09 17:08:36 [warn]: Queue [email] error: Connection is closed.
+2026-04-09 17:08:36 [warn]: Queue [email] error: 
+2026-04-09 17:08:36 [warn]: Queue [ai-processing] error: 
+2026-04-09 17:08:36 [warn]: Queue [reminders] error: 
+2026-04-09 17:08:36 [warn]: Queue [notifications] error: 
+2026-04-09 17:08:37 [warn]: Queue [email] error: 
+2026-04-09 17:08:37 [warn]: Queue [ai-processing] error: 
+2026-04-09 17:08:37 [warn]: Queue [reminders] error: 
+2026-04-09 17:08:37 [warn]: Queue [notifications] error: 
+2026-04-09 17:08:37 [info]: MongoDB connected: ac-2yccfm8-shard-00-01.k68eknu.mongodb.net
+2026-04-09 17:08:37 [info]: API server running on port 5000 [development]
+2026-04-09 17:08:37 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-09 17:08:37 [info]: Queue dashboard: http://localhost:5000/admin/queues
+2026-04-09 17:08:37 [warn]: Queue [email] error: 
+2026-04-09 17:08:37 [warn]: Queue [ai-processing] error: 
+2026-04-09 17:08:37 [warn]: Queue [reminders] error: 
+2026-04-09 17:08:37 [warn]: Queue [notifications] error: 
+2026-04-09 17:08:37 [warn]: Queue [ai-processing] error: 
+2026-04-09 17:08:37 [warn]: Queue [reminders] error: 
+2026-04-09 17:08:37 [warn]: Queue [notifications] error: 
+2026-04-09 17:10:58 [info]: Bull Board mounted at /admin/queues
+2026-04-09 17:10:58 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-09 17:10:58 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-09 17:10:58 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-09 17:10:58 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-09 17:10:59 [info]: MongoDB connected: ac-2yccfm8-shard-00-02.k68eknu.mongodb.net
+2026-04-09 17:10:59 [info]: API server running on port 5000 [development]
+2026-04-09 17:10:59 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-09 17:10:59 [info]: Queue dashboard: http://localhost:5000/admin/queues
+2026-04-09 17:11:40 [http]: ::1 - - [09/Apr/2026:11:41:40 +0000] "POST /api/v1/auth/register HTTP/1.1" 422 328 "-" "curl/8.18.0"
+2026-04-09 17:13:04 [info]: Bull Board mounted at /admin/queues
+2026-04-09 17:13:04 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-09 17:13:04 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-09 17:13:04 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-09 17:13:05 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-09 17:13:06 [info]: MongoDB connected: ac-2yccfm8-shard-00-02.k68eknu.mongodb.net
+2026-04-09 17:13:06 [info]: API server running on port 5000 [development]
+2026-04-09 17:13:06 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-09 17:13:06 [info]: Queue dashboard: http://localhost:5000/admin/queues
+2026-04-09 17:13:21 [http]: ::1 - - [09/Apr/2026:11:43:21 +0000] "POST /api/v1/auth/register HTTP/1.1" 201 482 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-09 17:13:21 [http]: ::1 - - [09/Apr/2026:11:43:21 +0000] "GET /api/v1/dashboard HTTP/1.1" 200 263 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-09 17:13:33 [http]: ::1 - - [09/Apr/2026:11:43:33 +0000] "GET /api/v1/leads?page=1&limit=10&search=&stage= HTTP/1.1" 200 100 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-09 17:13:36 [http]: ::1 - - [09/Apr/2026:11:43:36 +0000] "GET /api/v1/deals/pipeline HTTP/1.1" 200 59 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-09 17:13:37 [http]: ::1 - - [09/Apr/2026:11:43:37 +0000] "GET /api/v1/activities?page=1&limit=15 HTTP/1.1" 200 61 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-09 17:13:39 [http]: ::1 - - [09/Apr/2026:11:43:39 +0000] "GET /api/v1/leads?limit=50 HTTP/1.1" 200 100 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-09 17:14:26 [http]: ::1 - - [09/Apr/2026:11:44:26 +0000] "GET /api/v1/users?page=1&limit=10 HTTP/1.1" 200 414 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-09 17:14:57 [http]: ::1 - - [09/Apr/2026:11:44:57 +0000] "POST /api/v1/auth/logout HTTP/1.1" 200 49 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-09 17:15:17 [http]: ::1 - - [09/Apr/2026:11:45:17 +0000] "POST /api/v1/auth/login HTTP/1.1" 200 446 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-09 17:15:17 [http]: ::1 - - [09/Apr/2026:11:45:17 +0000] "GET /api/v1/dashboard HTTP/1.1" 200 1678 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-09 17:15:27 [http]: ::1 - - [09/Apr/2026:11:45:27 +0000] "GET /api/v1/leads?page=1&limit=10&search=&stage= HTTP/1.1" 200 7101 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-09 17:16:07 [http]: ::1 - - [09/Apr/2026:11:46:07 +0000] "POST /api/v1/leads HTTP/1.1" 201 480 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-09 17:16:08 [http]: ::1 - - [09/Apr/2026:11:46:08 +0000] "GET /api/v1/leads?page=1&limit=10&search=&stage= HTTP/1.1" 200 6822 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-09 17:16:15 [http]: ::1 - - [09/Apr/2026:11:46:15 +0000] "GET /api/v1/leads?page=1&limit=10&search=&stage= HTTP/1.1" 401 47 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-09 17:16:15 [http]: ::1 - - [09/Apr/2026:11:46:15 +0000] "POST /api/v1/auth/refresh HTTP/1.1" 200 298 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-09 17:16:15 [http]: ::1 - - [09/Apr/2026:11:46:15 +0000] "GET /api/v1/leads?page=1&limit=10&search=&stage= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-09 17:16:18 [http]: ::1 - - [09/Apr/2026:11:46:18 +0000] "GET /api/v1/leads?page=2&limit=10&search=&stage= HTTP/1.1" 200 802 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-09 17:16:23 [http]: ::1 - - [09/Apr/2026:11:46:23 +0000] "GET /api/v1/deals/pipeline HTTP/1.1" 200 1149 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-09 17:16:33 [http]: ::1 - - [09/Apr/2026:11:46:33 +0000] "GET /api/v1/activities?page=1&limit=15 HTTP/1.1" 200 3650 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-09 17:18:25 [http]: ::1 - - [09/Apr/2026:11:48:25 +0000] "GET /api/v1/activities?page=1&limit=15 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-09 17:18:28 [http]: ::1 - - [09/Apr/2026:11:48:28 +0000] "GET /api/v1/dashboard HTTP/1.1" 200 1678 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-09 17:19:56 [info]: Bull Board mounted at /admin/queues
+2026-04-09 17:19:56 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-09 17:19:56 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-09 17:19:56 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-09 17:19:56 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-09 17:19:56 [info]: MongoDB connected: ac-2yccfm8-shard-00-01.k68eknu.mongodb.net
+2026-04-09 17:19:57 [info]: API server running on port 5000 [development]
+2026-04-09 17:19:57 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-09 17:19:57 [info]: Queue dashboard: http://localhost:5000/admin/queues
+2026-04-09 17:20:03 [info]: Bull Board mounted at /admin/queues
+2026-04-09 17:20:03 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-09 17:20:03 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-09 17:20:03 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-09 17:20:03 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-09 17:20:04 [info]: MongoDB connected: ac-2yccfm8-shard-00-00.k68eknu.mongodb.net
+2026-04-09 17:20:04 [info]: API server running on port 5000 [development]
+2026-04-09 17:20:04 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-09 17:20:04 [info]: Queue dashboard: http://localhost:5000/admin/queues
+2026-04-09 17:20:12 [info]: Bull Board mounted at /admin/queues
+2026-04-09 17:20:12 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-09 17:20:12 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-09 17:20:12 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-09 17:20:12 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-09 17:20:13 [info]: MongoDB connected: ac-2yccfm8-shard-00-02.k68eknu.mongodb.net
+2026-04-09 17:20:13 [info]: API server running on port 5000 [development]
+2026-04-09 17:20:13 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-09 17:20:13 [info]: Queue dashboard: http://localhost:5000/admin/queues
+2026-04-09 17:20:20 [info]: Bull Board mounted at /admin/queues
+2026-04-09 17:20:20 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-09 17:20:20 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-09 17:20:20 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-09 17:20:20 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-09 17:20:21 [info]: MongoDB connected: ac-2yccfm8-shard-00-01.k68eknu.mongodb.net
+2026-04-09 17:20:21 [info]: API server running on port 5000 [development]
+2026-04-09 17:20:21 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-09 17:20:21 [info]: Queue dashboard: http://localhost:5000/admin/queues
+2026-04-09 17:20:46 [info]: Bull Board mounted at /admin/queues
+2026-04-09 17:20:46 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-09 17:20:46 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-09 17:20:46 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-09 17:20:46 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-09 17:20:46 [info]: MongoDB connected: ac-2yccfm8-shard-00-00.k68eknu.mongodb.net
+2026-04-09 17:20:46 [info]: API server running on port 5000 [development]
+2026-04-09 17:20:46 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-09 17:20:46 [info]: Queue dashboard: http://localhost:5000/admin/queues
+2026-04-09 17:21:05 [info]: Bull Board mounted at /admin/queues
+2026-04-09 17:21:05 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-09 17:21:05 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-09 17:21:05 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-09 17:21:05 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-09 17:21:06 [info]: MongoDB connected: ac-2yccfm8-shard-00-00.k68eknu.mongodb.net
+2026-04-09 17:21:06 [info]: API server running on port 5000 [development]
+2026-04-09 17:21:06 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-09 17:21:06 [info]: Queue dashboard: http://localhost:5000/admin/queues
+2026-04-09 17:21:14 [info]: Bull Board mounted at /admin/queues
+2026-04-09 17:21:14 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-09 17:21:14 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-09 17:21:14 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-09 17:21:14 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-09 17:21:14 [info]: MongoDB connected: ac-2yccfm8-shard-00-02.k68eknu.mongodb.net
+2026-04-09 17:21:14 [info]: API server running on port 5000 [development]
+2026-04-09 17:21:14 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-09 17:21:14 [info]: Queue dashboard: http://localhost:5000/admin/queues
+2026-04-09 17:21:28 [info]: Bull Board mounted at /admin/queues
+2026-04-09 17:21:28 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-09 17:21:28 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-09 17:21:28 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-09 17:21:28 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-09 17:21:29 [info]: MongoDB connected: ac-2yccfm8-shard-00-01.k68eknu.mongodb.net
+2026-04-09 17:21:29 [info]: API server running on port 5000 [development]
+2026-04-09 17:21:29 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-09 17:21:29 [info]: Queue dashboard: http://localhost:5000/admin/queues
+2026-04-09 17:21:43 [info]: Bull Board mounted at /admin/queues
+2026-04-09 17:21:43 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-09 17:21:43 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-09 17:21:43 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-09 17:21:43 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-09 17:21:45 [info]: MongoDB connected: ac-2yccfm8-shard-00-02.k68eknu.mongodb.net
+2026-04-09 17:21:45 [info]: API server running on port 5000 [development]
+2026-04-09 17:21:46 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-09 17:21:46 [info]: Queue dashboard: http://localhost:5000/admin/queues
+2026-04-09 17:22:14 [info]: Bull Board mounted at /admin/queues
+2026-04-09 17:22:15 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-09 17:22:15 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-09 17:22:15 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-09 17:22:15 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-09 17:22:15 [info]: MongoDB connected: ac-2yccfm8-shard-00-00.k68eknu.mongodb.net
+2026-04-09 17:22:15 [info]: API server running on port 5000 [development]
+2026-04-09 17:22:15 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-09 17:22:15 [info]: Queue dashboard: http://localhost:5000/admin/queues
+2026-04-09 17:22:33 [info]: Bull Board mounted at /admin/queues
+2026-04-09 17:22:33 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-09 17:22:33 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-09 17:22:33 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-09 17:22:33 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-09 17:22:34 [info]: MongoDB connected: ac-2yccfm8-shard-00-02.k68eknu.mongodb.net
+2026-04-09 17:22:34 [info]: API server running on port 5000 [development]
+2026-04-09 17:22:34 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-09 17:22:34 [info]: Queue dashboard: http://localhost:5000/admin/queues
+2026-04-09 17:22:43 [info]: Bull Board mounted at /admin/queues
+2026-04-09 17:22:43 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-09 17:22:43 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-09 17:22:43 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-09 17:22:43 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-09 17:22:44 [info]: MongoDB connected: ac-2yccfm8-shard-00-01.k68eknu.mongodb.net
+2026-04-09 17:22:44 [info]: API server running on port 5000 [development]
+2026-04-09 17:22:44 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-09 17:22:44 [info]: Queue dashboard: http://localhost:5000/admin/queues
+2026-04-09 17:23:18 [http]: ::1 - - [09/Apr/2026:11:53:18 +0000] "GET /api/v1/dashboard HTTP/1.1" 200 1846 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-09 17:25:25 [http]: ::1 - - [09/Apr/2026:11:55:25 +0000] "GET /api/v1/dashboard HTTP/1.1" 200 1846 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-09 17:30:41 [info]: Bull Board mounted at /admin/queues
+2026-04-09 17:30:41 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-09 17:30:41 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-09 17:30:41 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-09 17:30:41 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-09 17:30:42 [info]: MongoDB connected: ac-2yccfm8-shard-00-00.k68eknu.mongodb.net
+2026-04-09 17:30:42 [info]: API server running on port 5000 [development]
+2026-04-09 17:30:42 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-09 17:30:42 [info]: Queue dashboard: http://localhost:5000/admin/queues
+2026-04-09 17:30:51 [info]: Bull Board mounted at /admin/queues
+2026-04-09 17:30:51 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-09 17:30:51 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-09 17:30:51 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-09 17:30:51 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-09 17:30:52 [info]: MongoDB connected: ac-2yccfm8-shard-00-02.k68eknu.mongodb.net
+2026-04-09 17:30:52 [info]: API server running on port 5000 [development]
+2026-04-09 17:30:52 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-09 17:30:52 [info]: Queue dashboard: http://localhost:5000/admin/queues
+2026-04-09 17:32:57 [info]: Bull Board mounted at /admin/queues
+2026-04-09 17:32:57 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-09 17:32:57 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-09 17:32:57 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-09 17:32:57 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-09 17:32:58 [info]: MongoDB connected: ac-2yccfm8-shard-00-02.k68eknu.mongodb.net
+2026-04-09 17:32:58 [info]: API server running on port 5000 [development]
+2026-04-09 17:32:58 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-09 17:32:58 [info]: Queue dashboard: http://localhost:5000/admin/queues
+2026-04-09 17:37:56 [info]: Bull Board mounted at /admin/queues
+2026-04-09 17:37:56 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-09 17:37:56 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-09 17:37:56 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-09 17:37:56 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-09 17:37:57 [info]: MongoDB connected: ac-2yccfm8-shard-00-00.k68eknu.mongodb.net
+2026-04-09 17:37:57 [info]: API server running on port 5000 [development]
+2026-04-09 17:37:57 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-09 17:37:57 [info]: Queue dashboard: http://localhost:5000/admin/queues
+2026-04-09 17:38:19 [info]: Bull Board mounted at /admin/queues
+2026-04-09 17:38:19 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-09 17:38:19 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-09 17:38:19 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-09 17:38:19 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-09 17:38:20 [info]: MongoDB connected: ac-2yccfm8-shard-00-02.k68eknu.mongodb.net
+2026-04-09 17:38:20 [info]: API server running on port 5000 [development]
+2026-04-09 17:38:20 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-09 17:38:20 [info]: Queue dashboard: http://localhost:5000/admin/queues
+2026-04-09 17:38:32 [info]: Bull Board mounted at /admin/queues
+2026-04-09 17:38:32 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-09 17:38:32 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-09 17:38:32 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-09 17:38:32 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-09 17:38:33 [info]: MongoDB connected: ac-2yccfm8-shard-00-01.k68eknu.mongodb.net
+2026-04-09 17:38:33 [info]: API server running on port 5000 [development]
+2026-04-09 17:38:33 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-09 17:38:33 [info]: Queue dashboard: http://localhost:5000/admin/queues
+2026-04-09 17:47:54 [info]: Bull Board mounted at /admin/queues
+2026-04-09 17:47:54 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-09 17:47:54 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-09 17:47:54 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-09 17:47:54 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-09 17:47:55 [info]: MongoDB connected: ac-2yccfm8-shard-00-01.k68eknu.mongodb.net
+2026-04-09 17:47:55 [info]: API server running on port 5000 [development]
+2026-04-09 17:47:55 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-09 17:47:55 [info]: Queue dashboard: http://localhost:5000/admin/queues
+2026-04-09 17:48:05 [info]: Bull Board mounted at /admin/queues
+2026-04-09 17:48:05 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-09 17:48:05 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-09 17:48:05 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-09 17:48:05 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-09 17:48:06 [info]: MongoDB connected: ac-2yccfm8-shard-00-02.k68eknu.mongodb.net
+2026-04-09 17:48:06 [info]: API server running on port 5000 [development]
+2026-04-09 17:48:06 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-09 17:48:06 [info]: Queue dashboard: http://localhost:5000/admin/queues
+2026-04-09 17:48:23 [info]: Bull Board mounted at /admin/queues
+2026-04-09 17:48:23 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-09 17:48:23 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-09 17:48:23 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-09 17:48:23 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-09 17:48:23 [info]: MongoDB connected: ac-2yccfm8-shard-00-00.k68eknu.mongodb.net
+2026-04-09 17:48:23 [info]: API server running on port 5000 [development]
+2026-04-09 17:48:23 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-09 17:48:23 [info]: Queue dashboard: http://localhost:5000/admin/queues
+2026-04-09 17:50:21 [info]: Bull Board mounted at /admin/queues
+2026-04-09 17:50:21 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-09 17:50:21 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-09 17:50:21 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-09 17:50:21 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-09 17:50:22 [info]: MongoDB connected: ac-2yccfm8-shard-00-00.k68eknu.mongodb.net
+2026-04-09 17:50:22 [info]: API server running on port 5000 [development]
+2026-04-09 17:50:22 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-09 17:50:22 [info]: Queue dashboard: http://localhost:5000/admin/queues
+2026-04-09 17:52:32 [http]: ::1 - - [09/Apr/2026:12:22:32 +0000] "POST /api/v1/auth/register HTTP/1.1" 409 54 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-09 17:52:40 [http]: ::1 - - [09/Apr/2026:12:22:40 +0000] "POST /api/v1/auth/register HTTP/1.1" 201 512 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-09 17:52:40 [http]: ::1 - - [09/Apr/2026:12:22:40 +0000] "GET /api/v1/dashboard HTTP/1.1" 200 431 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-09 17:52:48 [http]: ::1 - - [09/Apr/2026:12:22:48 +0000] "GET /api/v1/leads?page=1&limit=10&search=&stage= HTTP/1.1" 200 100 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-09 17:52:50 [http]: ::1 - - [09/Apr/2026:12:22:50 +0000] "GET /api/v1/deals/pipeline HTTP/1.1" 200 59 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-09 17:52:51 [http]: ::1 - - [09/Apr/2026:12:22:51 +0000] "GET /api/v1/contacts?page=1&limit=10&search=&type= HTTP/1.1" 200 100 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-09 17:52:52 [http]: ::1 - - [09/Apr/2026:12:22:52 +0000] "GET /api/v1/accounts?page=1&limit=10&search= HTTP/1.1" 200 100 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-09 17:52:53 [http]: ::1 - - [09/Apr/2026:12:22:53 +0000] "GET /api/v1/activities?page=1&limit=15 HTTP/1.1" 200 61 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-09 17:52:54 [http]: ::1 - - [09/Apr/2026:12:22:54 +0000] "GET /api/v1/leads?limit=50 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-09 17:52:59 [warn]: MongoDB disconnected
+2026-04-09 17:53:13 [http]: ::1 - - [09/Apr/2026:12:23:13 +0000] "POST /api/v1/auth/logout HTTP/1.1" 200 49 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-09 17:55:25 [error]: 500 20170000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:916:SSL alert number 80
+ — POST /api/v1/auth/register
+2026-04-09 17:55:25 [http]: ::1 - - [09/Apr/2026:12:25:25 +0000] "POST /api/v1/auth/register HTTP/1.1" 500 1846 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-09 17:56:02 [error]: 500 20170000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:916:SSL alert number 80
+ — POST /api/v1/auth/register
+2026-04-09 17:56:02 [http]: ::1 - - [09/Apr/2026:12:26:02 +0000] "POST /api/v1/auth/register HTTP/1.1" 500 1846 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-09 17:56:29 [error]: 500 20170000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:916:SSL alert number 80
+ — POST /api/v1/auth/login
+2026-04-09 17:56:29 [http]: ::1 - - [09/Apr/2026:12:26:29 +0000] "POST /api/v1/auth/login HTTP/1.1" 500 1846 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-09 17:57:06 [error]: 500 20170000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:916:SSL alert number 80
+ — POST /api/v1/auth/login
+2026-04-09 17:57:06 [http]: ::1 - - [09/Apr/2026:12:27:06 +0000] "POST /api/v1/auth/login HTTP/1.1" 500 1846 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-09 17:58:06 [info]: Bull Board mounted at /admin/queues
+2026-04-09 17:58:06 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-09 17:58:06 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-09 17:58:06 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-09 17:58:06 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-09 17:58:17 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-09 17:59:46 [info]: Bull Board mounted at /admin/queues
+2026-04-09 17:59:46 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-09 17:59:46 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-09 17:59:46 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-09 17:59:46 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-09 17:59:56 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-09 18:00:32 [info]: Bull Board mounted at /admin/queues
+2026-04-09 18:00:32 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-09 18:00:32 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-09 18:00:32 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-09 18:00:32 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-09 18:00:43 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-09 18:00:45 [info]: Bull Board mounted at /admin/queues
+2026-04-09 18:00:45 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-09 18:00:45 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-09 18:00:45 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-09 18:00:45 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-09 18:00:55 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-09 18:01:00 [info]: Bull Board mounted at /admin/queues
+2026-04-09 18:01:00 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-09 18:01:00 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-09 18:01:00 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-09 18:01:00 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-09 18:01:11 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-09 18:03:17 [info]: Bull Board mounted at /admin/queues
+2026-04-09 18:03:17 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-09 18:03:17 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-09 18:03:17 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-09 18:03:17 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-09 18:03:27 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-09 18:03:51 [info]: Bull Board mounted at /admin/queues
+2026-04-09 18:03:51 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-09 18:03:51 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-09 18:03:51 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-09 18:03:51 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-09 18:04:01 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-09 18:04:01 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-09 18:04:01 [info]: API server running on port 5000 [development]
+2026-04-09 18:04:01 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-09 18:04:01 [info]: Queue dashboard: http://localhost:5000/admin/queues
+2026-04-09 18:05:17 [info]: Bull Board mounted at /admin/queues
+2026-04-09 18:05:17 [info]: API server running on port 5000 [development]
+2026-04-09 18:05:17 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-09 18:05:17 [info]: Queue dashboard: http://localhost:5000/admin/queues
+2026-04-09 18:05:17 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-09 18:05:17 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-09 18:05:17 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-09 18:05:17 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-09 18:05:28 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-09 18:05:28 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-09 18:05:48 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-09 18:05:48 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-09 18:06:09 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-09 18:06:09 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-09 18:06:29 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-09 18:06:29 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-09 18:07:31 [info]: Bull Board mounted at /admin/queues
+2026-04-09 18:07:32 [info]: API server running on port 5000 [development]
+2026-04-09 18:07:32 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-09 18:07:32 [info]: Queue dashboard: http://localhost:5000/admin/queues
+2026-04-09 18:07:32 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-09 18:07:32 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-09 18:07:32 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-09 18:07:32 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-09 18:07:44 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-09 18:07:44 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-09 18:08:04 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-09 18:08:04 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-09 18:08:24 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-09 18:08:24 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-09 18:08:45 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-09 18:08:45 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-09 18:09:05 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-09 18:09:05 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-09 18:09:25 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-09 18:09:25 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-09 18:09:46 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-09 18:09:46 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-09 18:10:06 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-09 18:10:06 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-09 18:10:26 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-09 18:10:26 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-09 18:10:47 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-09 18:10:47 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-09 18:11:07 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-09 18:11:07 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-09 18:11:27 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-09 18:11:27 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-09 18:11:48 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-09 18:11:48 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-09 18:12:08 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-09 18:12:08 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-09 18:12:28 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-09 18:12:28 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-09 18:12:49 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-09 18:12:49 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-09 18:13:09 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-09 18:13:09 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-09 18:13:29 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-09 18:13:29 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-09 18:13:50 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-09 18:13:50 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-09 18:14:17 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-09 18:14:17 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-09 18:14:37 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-09 18:14:37 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-09 18:14:57 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-09 18:14:57 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-09 18:15:18 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-09 18:15:18 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-09 18:15:38 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-09 18:15:38 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-09 18:28:23 [info]: Bull Board mounted at /admin/queues
+2026-04-09 18:28:23 [info]: API server running on port 5000 [development]
+2026-04-09 18:28:23 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-09 18:28:23 [info]: Queue dashboard: http://localhost:5000/admin/queues
+2026-04-09 18:28:23 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-09 18:28:23 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-09 18:28:23 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-09 18:28:23 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-09 18:28:34 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-09 18:28:34 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-09 18:28:54 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-09 18:28:54 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-09 18:29:14 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-09 18:29:14 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-09 18:29:34 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-09 18:29:34 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-09 18:29:37 [error]: 500 Operation `users.findOne()` buffering timed out after 10000ms — POST /api/v1/auth/register | MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\GFG0790\OneDrive\Desktop\CRM\backend\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:187:23)
+    at listOnTimeout (node:internal/timers:588:17)
+    at process.processTimers (node:internal/timers:523:7)
+2026-04-09 18:29:37 [http]: ::1 - - [09/Apr/2026:12:59:37 +0000] "POST /api/v1/auth/register HTTP/1.1" 500 525 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-09 18:29:53 [error]: 500 Operation `users.findOne()` buffering timed out after 10000ms — POST /api/v1/auth/register | MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\GFG0790\OneDrive\Desktop\CRM\backend\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:187:23)
+    at listOnTimeout (node:internal/timers:588:17)
+    at process.processTimers (node:internal/timers:523:7)
+2026-04-09 18:29:53 [http]: ::1 - - [09/Apr/2026:12:59:53 +0000] "POST /api/v1/auth/register HTTP/1.1" 500 525 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-09 18:29:55 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-09 18:29:55 [warn]: Retrying MongoDB connection in 10 seconds...

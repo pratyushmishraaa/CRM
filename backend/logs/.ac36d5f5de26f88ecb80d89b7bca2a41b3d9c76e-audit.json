@@ -1,0 +1,25 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\Users\\GFG0790\\OneDrive\\Desktop\\CRM\\backend\\logs\\.ac36d5f5de26f88ecb80d89b7bca2a41b3d9c76e-audit.json",
+    "files": [
+        {
+            "date": 1775734694867,
+            "name": "C:\\Users\\GFG0790\\OneDrive\\Desktop\\CRM\\backend\\logs\\combined-2026-04-09.log",
+            "hash": "0ef780e8a2ccb1025612a5390d14b31a3697eff44d19d3f628d50aaa0048fcec"
+        },
+        {
+            "date": 1775880820804,
+            "name": "C:\\Users\\GFG0790\\OneDrive\\Desktop\\CRM\\backend\\logs\\combined-2026-04-11.log",
+            "hash": "371b1595425fa181dc7a6b77cbf8fc9c4dbfdbda28f7847c975f80d0db4521bd"
+        },
+        {
+            "date": 1776014680415,
+            "name": "C:\\Users\\GFG0790\\OneDrive\\Desktop\\CRM\\backend\\logs\\combined-2026-04-12.log",
+            "hash": "b5d9837b63b671d400fdf789a659dfdb3ddf10f4d27b37e1c8a019aea4e7d773"
+        }
+    ],
+    "hashType": "sha256"
+}

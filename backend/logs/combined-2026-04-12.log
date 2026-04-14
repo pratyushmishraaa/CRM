@@ -1,0 +1,208 @@
+2026-04-12 22:54:55 [info]: Bull Board mounted at /admin/queues
+2026-04-12 22:54:55 [info]: API server running on port 5000 [development]
+2026-04-12 22:54:55 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-12 22:54:55 [info]: Queue dashboard: http://localhost:5000/admin/queues
+2026-04-12 22:54:55 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-12 22:54:55 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-12 22:54:55 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-12 22:54:55 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-12 22:55:05 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-12 22:55:05 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-12 22:55:25 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-12 22:55:25 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-12 22:55:46 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-12 22:55:46 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-12 22:56:06 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-12 22:56:06 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-12 22:56:26 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-12 22:56:26 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-12 22:56:46 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-12 22:56:46 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-12 22:57:06 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-12 22:57:06 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-12 22:57:26 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-12 22:57:26 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-12 22:57:46 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-12 22:57:46 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-12 22:58:06 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-12 22:58:06 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-12 22:58:26 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-12 22:58:26 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-12 22:58:46 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-12 22:58:46 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-12 22:59:06 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-12 22:59:06 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-12 22:59:26 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-12 22:59:26 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-12 22:59:46 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-12 22:59:46 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-12 23:00:06 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-12 23:00:06 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-12 23:00:26 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-12 23:00:26 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-12 23:00:46 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-12 23:00:46 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-12 23:01:06 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-12 23:01:06 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-12 23:01:26 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-12 23:01:26 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-12 23:01:46 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-12 23:01:46 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-12 23:02:07 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-12 23:02:07 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-12 23:02:27 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-12 23:02:27 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-12 23:02:47 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-12 23:02:47 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-12 23:03:07 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-12 23:03:07 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-12 23:03:27 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-12 23:03:27 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-12 23:03:47 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-12 23:03:47 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-12 23:04:07 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-12 23:04:07 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-12 23:04:27 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-12 23:04:27 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-12 23:04:47 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-12 23:04:47 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-12 23:05:07 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-12 23:05:07 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-12 23:05:27 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-12 23:05:27 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-12 23:05:47 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-12 23:05:47 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-12 23:06:07 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-12 23:06:07 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-12 23:06:27 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-12 23:06:27 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-12 23:06:47 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-12 23:06:47 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-12 23:07:07 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-12 23:07:07 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-12 23:07:27 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-12 23:07:27 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-12 23:08:21 [info]: API server running on port 5000 [development]
+2026-04-12 23:08:21 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-12 23:08:36 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-12 23:08:36 [warn]: Retrying in 10 seconds...
+2026-04-12 23:09:01 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-12 23:09:01 [warn]: Retrying in 10 seconds...
+2026-04-12 23:09:26 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-12 23:09:26 [warn]: Retrying in 10 seconds...
+2026-04-12 23:09:51 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-12 23:09:51 [warn]: Retrying in 10 seconds...
+2026-04-12 23:10:16 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-12 23:10:16 [warn]: Retrying in 10 seconds...
+2026-04-12 23:10:41 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-12 23:10:41 [warn]: Retrying in 10 seconds...
+2026-04-12 23:11:06 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-12 23:11:06 [warn]: Retrying in 10 seconds...
+2026-04-12 23:11:28 [info]: API server running on port 5000 [development]
+2026-04-12 23:11:28 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-12 23:11:43 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-12 23:11:43 [warn]: Retrying in 10 seconds...
+2026-04-12 23:12:09 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-12 23:12:09 [warn]: Retrying in 10 seconds...
+2026-04-12 23:12:34 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-12 23:12:34 [warn]: Retrying in 10 seconds...
+2026-04-12 23:12:59 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-12 23:12:59 [warn]: Retrying in 10 seconds...
+2026-04-12 23:13:24 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-12 23:13:24 [warn]: Retrying in 10 seconds...
+2026-04-12 23:13:49 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-12 23:13:49 [warn]: Retrying in 10 seconds...
+2026-04-12 23:14:03 [info]: MongoDB connected: ac-2yccfm8-shard-00-02.k68eknu.mongodb.net
+2026-04-12 23:14:45 [http]: ::1 - - [12/Apr/2026:17:44:45 +0000] "POST /api/v1/auth/register HTTP/1.1" 201 478 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-12 23:14:45 [http]: ::1 - - [12/Apr/2026:17:44:45 +0000] "GET /api/v1/dashboard HTTP/1.1" 200 321 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-12 23:14:50 [http]: ::1 - - [12/Apr/2026:17:44:50 +0000] "GET /api/v1/leads?page=1&limit=15 HTTP/1.1" 200 110 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-12 23:14:51 [http]: ::1 - - [12/Apr/2026:17:44:51 +0000] "GET /api/v1/deals/pipeline HTTP/1.1" 200 59 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-12 23:14:53 [http]: ::1 - - [12/Apr/2026:17:44:53 +0000] "GET /api/v1/contacts?page=1&limit=15 HTTP/1.1" 200 113 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-12 23:14:55 [http]: ::1 - - [12/Apr/2026:17:44:55 +0000] "GET /api/v1/accounts?page=1&limit=15 HTTP/1.1" 200 113 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-12 23:14:57 [http]: ::1 - - [12/Apr/2026:17:44:57 +0000] "GET /api/v1/activities?page=1&limit=15 HTTP/1.1" 200 115 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-12 23:14:58 [http]: ::1 - - [12/Apr/2026:17:44:58 +0000] "GET /api/v1/leads?limit=50 HTTP/1.1" 200 110 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-12 23:15:11 [http]: ::1 - - [12/Apr/2026:17:45:11 +0000] "POST /api/v1/leads HTTP/1.1" 201 667 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-12 23:15:11 [http]: ::1 - - [12/Apr/2026:17:45:11 +0000] "GET /api/v1/leads?page=1&limit=15 HTTP/1.1" 200 719 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-12 23:15:11 [http]: ::1 - - [12/Apr/2026:17:45:11 +0000] "GET /api/v1/leads?page=1&limit=15 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-12 23:15:35 [http]: ::1 - - [12/Apr/2026:17:45:35 +0000] "GET /api/v1/users?page=1&limit=10 HTTP/1.1" 200 421 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-12 23:16:04 [http]: ::1 - - [12/Apr/2026:17:46:04 +0000] "POST /api/v1/users HTTP/1.1" 201 472 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-12 23:16:04 [http]: ::1 - - [12/Apr/2026:17:46:04 +0000] "GET /api/v1/users?page=1&limit=10 HTTP/1.1" 200 743 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-12 23:16:04 [http]: ::1 - - [12/Apr/2026:17:46:04 +0000] "GET /api/v1/users?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-12 23:16:17 [http]: ::1 - - [12/Apr/2026:17:46:17 +0000] "POST /api/v1/auth/refresh HTTP/1.1" 200 311 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-12 23:16:17 [http]: ::1 - - [12/Apr/2026:17:46:17 +0000] "POST /api/v1/auth/refresh HTTP/1.1" 200 311 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-12 23:16:18 [http]: ::1 - - [12/Apr/2026:17:46:18 +0000] "GET /api/v1/dashboard HTTP/1.1" 200 344 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-12 23:16:22 [http]: ::1 - - [12/Apr/2026:17:46:22 +0000] "POST /api/v1/auth/logout HTTP/1.1" 200 49 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-12 23:16:35 [http]: ::1 - - [12/Apr/2026:17:46:35 +0000] "POST /api/v1/auth/login HTTP/1.1" 200 484 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-12 23:16:40 [http]: ::1 - - [12/Apr/2026:17:46:40 +0000] "GET /api/v1/leads?page=1&limit=15 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-12 23:16:50 [http]: ::1 - - [12/Apr/2026:17:46:50 +0000] "GET /api/v1/users?page=1&limit=10 HTTP/1.1" 200 782 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-12 23:18:18 [http]: ::1 - - [12/Apr/2026:17:48:18 +0000] "GET /api/v1/audit-logs?page=1&limit=50 HTTP/1.1" 200 2319 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-12 23:18:33 [http]: ::1 - - [12/Apr/2026:17:48:33 +0000] "GET /api/v1/dashboard HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-12 23:18:40 [http]: ::1 - - [12/Apr/2026:17:48:40 +0000] "GET /api/v1/users?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-12 23:21:04 [info]: API server running on port 5000 [development]
+2026-04-12 23:21:04 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-12 23:21:04 [info]: MongoDB connected: ac-2yccfm8-shard-00-01.k68eknu.mongodb.net
+2026-04-12 23:21:15 [info]: API server running on port 5000 [development]
+2026-04-12 23:21:15 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-12 23:21:16 [info]: MongoDB connected: ac-2yccfm8-shard-00-01.k68eknu.mongodb.net
+2026-04-12 23:21:30 [info]: Server running on port 5000 [development]
+2026-04-12 23:21:30 [info]: API docs → http://localhost:5000/api/v1/docs
+2026-04-12 23:21:30 [info]: MongoDB connected: ac-2yccfm8-shard-00-01.k68eknu.mongodb.net
+2026-04-12 23:27:23 [info]: Server running on port 5000 [development]
+2026-04-12 23:27:23 [info]: API docs → http://localhost:5000/api/v1/docs
+2026-04-12 23:27:24 [info]: MongoDB connected: ac-2yccfm8-shard-00-00.k68eknu.mongodb.net
+2026-04-12 23:30:34 [info]: Server running on port 5000 [development]
+2026-04-12 23:30:34 [info]: API docs → http://localhost:5000/api/v1/docs
+2026-04-12 23:30:35 [info]: MongoDB connected: ac-2yccfm8-shard-00-00.k68eknu.mongodb.net
+2026-04-12 23:32:13 [info]: Server running on port 5000 [development]
+2026-04-12 23:32:13 [info]: API docs → http://localhost:5000/api/v1/docs
+2026-04-12 23:32:14 [info]: MongoDB connected: ac-2yccfm8-shard-00-02.k68eknu.mongodb.net
+2026-04-12 23:32:17 [info]: Server running on port 5000 [development]
+2026-04-12 23:32:17 [info]: API docs → http://localhost:5000/api/v1/docs
+2026-04-12 23:32:18 [info]: MongoDB connected: ac-2yccfm8-shard-00-02.k68eknu.mongodb.net
+2026-04-12 23:32:21 [info]: Server running on port 5000 [development]
+2026-04-12 23:32:21 [info]: API docs → http://localhost:5000/api/v1/docs
+2026-04-12 23:32:22 [info]: MongoDB connected: ac-2yccfm8-shard-00-02.k68eknu.mongodb.net
+2026-04-12 23:32:25 [info]: Server running on port 5000 [development]
+2026-04-12 23:32:25 [info]: API docs → http://localhost:5000/api/v1/docs
+2026-04-12 23:32:26 [info]: MongoDB connected: ac-2yccfm8-shard-00-02.k68eknu.mongodb.net
+2026-04-12 23:32:28 [info]: Server running on port 5000 [development]
+2026-04-12 23:32:28 [info]: API docs → http://localhost:5000/api/v1/docs
+2026-04-12 23:32:28 [info]: MongoDB connected: ac-2yccfm8-shard-00-02.k68eknu.mongodb.net
+2026-04-12 23:32:31 [info]: Server running on port 5000 [development]
+2026-04-12 23:32:31 [info]: API docs → http://localhost:5000/api/v1/docs
+2026-04-12 23:32:33 [info]: Server running on port 5000 [development]
+2026-04-12 23:32:33 [info]: API docs → http://localhost:5000/api/v1/docs
+2026-04-12 23:32:34 [info]: MongoDB connected: ac-2yccfm8-shard-00-00.k68eknu.mongodb.net
+2026-04-12 23:32:36 [info]: Server running on port 5000 [development]
+2026-04-12 23:32:36 [info]: API docs → http://localhost:5000/api/v1/docs
+2026-04-12 23:32:36 [info]: MongoDB connected: ac-2yccfm8-shard-00-02.k68eknu.mongodb.net
+2026-04-12 23:32:37 [info]: Server running on port 5000 [development]
+2026-04-12 23:32:37 [info]: API docs → http://localhost:5000/api/v1/docs
+2026-04-12 23:32:38 [info]: MongoDB connected: ac-2yccfm8-shard-00-02.k68eknu.mongodb.net
+2026-04-12 23:32:40 [info]: Server running on port 5000 [development]
+2026-04-12 23:32:40 [info]: API docs → http://localhost:5000/api/v1/docs
+2026-04-12 23:32:41 [info]: MongoDB connected: ac-2yccfm8-shard-00-02.k68eknu.mongodb.net
+2026-04-12 23:32:48 [info]: Server running on port 5000 [development]
+2026-04-12 23:32:48 [info]: API docs → http://localhost:5000/api/v1/docs
+2026-04-12 23:32:48 [info]: MongoDB connected: ac-2yccfm8-shard-00-00.k68eknu.mongodb.net
+2026-04-12 23:33:03 [info]: Server running on port 5000 [development]
+2026-04-12 23:33:03 [info]: API docs → http://localhost:5000/api/v1/docs
+2026-04-12 23:33:03 [info]: MongoDB connected: ac-2yccfm8-shard-00-02.k68eknu.mongodb.net
+2026-04-12 23:33:17 [info]: Server running on port 5000 [development]
+2026-04-12 23:33:17 [info]: API docs → http://localhost:5000/api/v1/docs
+2026-04-12 23:33:17 [info]: MongoDB connected: ac-2yccfm8-shard-00-01.k68eknu.mongodb.net
+2026-04-12 23:33:20 [info]: Server running on port 5000 [development]
+2026-04-12 23:33:20 [info]: API docs → http://localhost:5000/api/v1/docs
+2026-04-12 23:33:20 [info]: MongoDB connected: ac-2yccfm8-shard-00-01.k68eknu.mongodb.net
+2026-04-12 23:38:12 [info]: Server running on port 5000 [development]
+2026-04-12 23:38:12 [info]: API docs → http://localhost:5000/api/v1/docs
+2026-04-12 23:38:13 [info]: MongoDB connected: ac-2yccfm8-shard-00-02.k68eknu.mongodb.net
+2026-04-12 23:38:30 [info]: Server running on port 5000 [development]
+2026-04-12 23:38:30 [info]: API docs → http://localhost:5000/api/v1/docs
+2026-04-12 23:38:30 [info]: MongoDB connected: ac-2yccfm8-shard-00-02.k68eknu.mongodb.net
+2026-04-12 23:38:45 [info]: Server running on port 5000 [development]
+2026-04-12 23:38:45 [info]: API docs → http://localhost:5000/api/v1/docs
+2026-04-12 23:38:45 [info]: MongoDB connected: ac-2yccfm8-shard-00-02.k68eknu.mongodb.net
+2026-04-12 23:39:34 [info]: Server running on port 5000 [development]
+2026-04-12 23:39:34 [info]: API docs → http://localhost:5000/api/v1/docs
+2026-04-12 23:39:34 [info]: MongoDB connected: ac-2yccfm8-shard-00-02.k68eknu.mongodb.net

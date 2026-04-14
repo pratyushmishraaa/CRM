@@ -1,0 +1,644 @@
+2026-04-11 09:43:40 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 09:43:40 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 09:44:00 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 09:44:00 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 09:44:21 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 09:44:21 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 09:44:41 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 09:44:41 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 09:45:02 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 09:45:02 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 09:45:22 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 09:45:22 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 09:45:43 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 09:45:43 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 09:46:03 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 09:46:03 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 09:46:14 [info]: MongoDB connected: ac-2yccfm8-shard-00-02.k68eknu.mongodb.net
+2026-04-11 09:46:34 [info]: Bull Board mounted at /admin/queues
+2026-04-11 09:46:34 [info]: API server running on port 5000 [development]
+2026-04-11 09:46:34 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-11 09:46:34 [info]: Queue dashboard: http://localhost:5000/admin/queues
+2026-04-11 09:46:34 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-11 09:46:34 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-11 09:46:34 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-11 09:46:34 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-11 09:46:37 [info]: MongoDB connected: ac-2yccfm8-shard-00-00.k68eknu.mongodb.net
+2026-04-11 09:49:33 [http]: ::1 - - [11/Apr/2026:04:19:33 +0000] "POST /api/v1/auth/register HTTP/1.1" 201 511 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 09:49:34 [http]: ::1 - - [11/Apr/2026:04:19:34 +0000] "GET /api/v1/dashboard HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 09:49:43 [http]: ::1 - - [11/Apr/2026:04:19:43 +0000] "GET /api/v1/leads?page=1&limit=10&search=&stage= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 09:50:41 [http]: ::1 - - [11/Apr/2026:04:20:41 +0000] "POST /api/v1/leads HTTP/1.1" 422 382 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 09:50:44 [http]: ::1 - - [11/Apr/2026:04:20:44 +0000] "POST /api/v1/leads HTTP/1.1" 422 382 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 09:54:50 [info]: Bull Board mounted at /admin/queues
+2026-04-11 09:54:50 [info]: API server running on port 5000 [development]
+2026-04-11 09:54:50 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-11 09:54:50 [info]: Queue dashboard: http://localhost:5000/admin/queues
+2026-04-11 09:54:50 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-11 09:54:50 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-11 09:54:50 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-11 09:54:50 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-11 09:54:51 [info]: MongoDB connected: ac-2yccfm8-shard-00-01.k68eknu.mongodb.net
+2026-04-11 09:54:53 [http]: ::1 - - [11/Apr/2026:04:24:53 +0000] "GET /api/v1/leads?page=1&limit=10&search=&stage= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 09:54:57 [http]: ::1 - - [11/Apr/2026:04:24:57 +0000] "POST /api/v1/leads HTTP/1.1" 422 269 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 09:55:36 [http]: ::1 - - [11/Apr/2026:04:25:36 +0000] "GET /api/v1/leads?page=1&limit=10&search=&stage= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 09:56:12 [http]: ::1 - - [11/Apr/2026:04:26:12 +0000] "POST /api/v1/leads HTTP/1.1" 422 269 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 09:57:32 [info]: Bull Board mounted at /admin/queues
+2026-04-11 09:57:32 [info]: API server running on port 5000 [development]
+2026-04-11 09:57:32 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-11 09:57:32 [info]: Queue dashboard: http://localhost:5000/admin/queues
+2026-04-11 09:57:32 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-11 09:57:32 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-11 09:57:32 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-11 09:57:32 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-11 09:57:33 [info]: MongoDB connected: ac-2yccfm8-shard-00-02.k68eknu.mongodb.net
+2026-04-11 09:57:53 [info]: Bull Board mounted at /admin/queues
+2026-04-11 09:57:54 [info]: API server running on port 5000 [development]
+2026-04-11 09:57:54 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-11 09:57:54 [info]: Queue dashboard: http://localhost:5000/admin/queues
+2026-04-11 09:57:54 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-11 09:57:54 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-11 09:57:54 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-11 09:57:54 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-11 09:57:54 [info]: MongoDB connected: ac-2yccfm8-shard-00-00.k68eknu.mongodb.net
+2026-04-11 09:58:10 [info]: Bull Board mounted at /admin/queues
+2026-04-11 09:58:10 [info]: API server running on port 5000 [development]
+2026-04-11 09:58:10 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-11 09:58:10 [info]: Queue dashboard: http://localhost:5000/admin/queues
+2026-04-11 09:58:10 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-11 09:58:10 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-11 09:58:10 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-11 09:58:10 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-11 09:58:11 [info]: MongoDB connected: ac-2yccfm8-shard-00-01.k68eknu.mongodb.net
+2026-04-11 09:59:03 [info]: Bull Board mounted at /admin/queues
+2026-04-11 09:59:03 [info]: API server running on port 5000 [development]
+2026-04-11 09:59:03 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-11 09:59:03 [info]: Queue dashboard: http://localhost:5000/admin/queues
+2026-04-11 09:59:03 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-11 09:59:03 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-11 09:59:03 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-11 09:59:03 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-11 09:59:04 [info]: MongoDB connected: ac-2yccfm8-shard-00-01.k68eknu.mongodb.net
+2026-04-11 09:59:04 [http]: ::1 - - [11/Apr/2026:04:29:04 +0000] "GET /api/v1/leads?page=1&limit=10&search=&stage= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 09:59:08 [http]: ::1 - - [11/Apr/2026:04:29:08 +0000] "POST /api/v1/leads HTTP/1.1" 422 168 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 10:00:18 [http]: ::1 - - [11/Apr/2026:04:30:18 +0000] "POST /api/v1/leads HTTP/1.1" 422 168 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 10:00:24 [http]: ::1 - - [11/Apr/2026:04:30:24 +0000] "POST /api/v1/leads HTTP/1.1" 422 168 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 10:00:24 [http]: ::1 - - [11/Apr/2026:04:30:24 +0000] "POST /api/v1/leads HTTP/1.1" 422 168 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 10:00:26 [http]: ::1 - - [11/Apr/2026:04:30:26 +0000] "POST /api/v1/leads HTTP/1.1" 422 168 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 10:00:26 [http]: ::1 - - [11/Apr/2026:04:30:26 +0000] "POST /api/v1/leads HTTP/1.1" 422 168 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 10:00:26 [http]: ::1 - - [11/Apr/2026:04:30:26 +0000] "POST /api/v1/leads HTTP/1.1" 422 168 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 10:02:50 [http]: ::1 - - [11/Apr/2026:04:32:50 +0000] "GET /api/v1/leads?page=1&limit=10&search=&stage= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 10:04:26 [http]: ::1 - - [11/Apr/2026:04:34:26 +0000] "GET /api/v1/leads?page=1&limit=10&search=&stage= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 10:13:52 [warn]: MongoDB disconnected
+2026-04-11 10:14:48 [http]: ::1 - - [11/Apr/2026:04:44:48 +0000] "GET /api/v1/leads?page=1&limit=10&search=&stage= HTTP/1.1" 401 50 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 10:14:58 [error]: 500 78640000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:916:SSL alert number 80
+ — POST /api/v1/auth/refresh | MongoServerSelectionError: 78640000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:916:SSL alert number 80
+
+    at Topology.selectServer (C:\Users\GFG0790\OneDrive\Desktop\CRM\backend\node_modules\mongodb\lib\sdam\topology.js:327:38)
+    at async tryOperation (C:\Users\GFG0790\OneDrive\Desktop\CRM\backend\node_modules\mongodb\lib\operations\execute_operation.js:148:18)
+    at async executeOperation (C:\Users\GFG0790\OneDrive\Desktop\CRM\backend\node_modules\mongodb\lib\operations\execute_operation.js:78:16)
+    at async FindCursor._initialize (C:\Users\GFG0790\OneDrive\Desktop\CRM\backend\node_modules\mongodb\lib\cursor\find_cursor.js:62:26)
+    at async FindCursor.cursorInit (C:\Users\GFG0790\OneDrive\Desktop\CRM\backend\node_modules\mongodb\lib\cursor\abstract_cursor.js:632:27)
+    at async FindCursor.fetchBatch (C:\Users\GFG0790\OneDrive\Desktop\CRM\backend\node_modules\mongodb\lib\cursor\abstract_cursor.js:666:13)
+    at async FindCursor.next (C:\Users\GFG0790\OneDrive\Desktop\CRM\backend\node_modules\mongodb\lib\cursor\abstract_cursor.js:342:17)
+    at async Collection.findOne (C:\Users\GFG0790\OneDrive\Desktop\CRM\backend\node_modules\mongodb\lib\collection.js:313:24)
+    at async model.Query._findOne (C:\Users\GFG0790\OneDrive\Desktop\CRM\backend\node_modules\mongoose\lib\query.js:2710:15)
+    at async model.Query.exec (C:\Users\GFG0790\OneDrive\Desktop\CRM\backend\node_modules\mongoose\lib\query.js:4627:63)
+2026-04-11 10:14:58 [http]: ::1 - - [11/Apr/2026:04:44:58 +0000] "POST /api/v1/auth/refresh HTTP/1.1" 500 2023 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 10:15:30 [error]: 500 78640000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:916:SSL alert number 80
+ — POST /api/v1/auth/login | MongoServerSelectionError: 78640000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:916:SSL alert number 80
+
+    at Topology.selectServer (C:\Users\GFG0790\OneDrive\Desktop\CRM\backend\node_modules\mongodb\lib\sdam\topology.js:327:38)
+    at async tryOperation (C:\Users\GFG0790\OneDrive\Desktop\CRM\backend\node_modules\mongodb\lib\operations\execute_operation.js:148:18)
+    at async executeOperation (C:\Users\GFG0790\OneDrive\Desktop\CRM\backend\node_modules\mongodb\lib\operations\execute_operation.js:78:16)
+    at async FindCursor._initialize (C:\Users\GFG0790\OneDrive\Desktop\CRM\backend\node_modules\mongodb\lib\cursor\find_cursor.js:62:26)
+    at async FindCursor.cursorInit (C:\Users\GFG0790\OneDrive\Desktop\CRM\backend\node_modules\mongodb\lib\cursor\abstract_cursor.js:632:27)
+    at async FindCursor.fetchBatch (C:\Users\GFG0790\OneDrive\Desktop\CRM\backend\node_modules\mongodb\lib\cursor\abstract_cursor.js:666:13)
+    at async FindCursor.next (C:\Users\GFG0790\OneDrive\Desktop\CRM\backend\node_modules\mongodb\lib\cursor\abstract_cursor.js:342:17)
+    at async Collection.findOne (C:\Users\GFG0790\OneDrive\Desktop\CRM\backend\node_modules\mongodb\lib\collection.js:313:24)
+    at async model.Query._findOne (C:\Users\GFG0790\OneDrive\Desktop\CRM\backend\node_modules\mongoose\lib\query.js:2710:15)
+    at async model.Query.exec (C:\Users\GFG0790\OneDrive\Desktop\CRM\backend\node_modules\mongoose\lib\query.js:4627:63)
+2026-04-11 10:15:30 [http]: ::1 - - [11/Apr/2026:04:45:30 +0000] "POST /api/v1/auth/login HTTP/1.1" 500 2023 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 10:17:31 [info]: Bull Board mounted at /admin/queues
+2026-04-11 10:17:31 [info]: API server running on port 5000 [development]
+2026-04-11 10:17:31 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-11 10:17:31 [info]: Queue dashboard: http://localhost:5000/admin/queues
+2026-04-11 10:17:31 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-11 10:17:31 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-11 10:17:31 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-11 10:17:31 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-11 10:17:42 [info]: Bull Board mounted at /admin/queues
+2026-04-11 10:17:42 [info]: API server running on port 5000 [development]
+2026-04-11 10:17:42 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-11 10:17:42 [info]: Queue dashboard: http://localhost:5000/admin/queues
+2026-04-11 10:17:42 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-11 10:17:42 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-11 10:17:42 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-11 10:17:42 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-11 10:17:53 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:17:53 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:18:13 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:18:13 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:19:24 [info]: Bull Board mounted at /admin/queues
+2026-04-11 10:19:24 [info]: API server running on port 5000 [development]
+2026-04-11 10:19:24 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-11 10:19:24 [info]: Queue dashboard: http://localhost:5000/admin/queues
+2026-04-11 10:19:24 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-11 10:19:24 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-11 10:19:24 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-11 10:19:24 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-11 10:19:34 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:19:34 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:19:42 [error]: 500 Operation `users.findOne()` buffering timed out after 10000ms — POST /api/v1/auth/login | MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\GFG0790\OneDrive\Desktop\CRM\backend\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:187:23)
+    at listOnTimeout (node:internal/timers:588:17)
+    at process.processTimers (node:internal/timers:523:7)
+2026-04-11 10:19:42 [http]: ::1 - - [11/Apr/2026:04:49:42 +0000] "POST /api/v1/auth/login HTTP/1.1" 500 525 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 10:19:55 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:19:55 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:20:15 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:20:15 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:20:36 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:20:36 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:20:56 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:20:56 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:21:12 [info]: Bull Board mounted at /admin/queues
+2026-04-11 10:21:12 [info]: API server running on port 5000 [development]
+2026-04-11 10:21:12 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-11 10:21:12 [info]: Queue dashboard: http://localhost:5000/admin/queues
+2026-04-11 10:21:12 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-11 10:21:12 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-11 10:21:12 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-11 10:21:12 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-11 10:21:22 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:21:22 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:21:43 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:21:43 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:22:03 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:22:03 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:22:23 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:22:23 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:22:44 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:22:44 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:23:04 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:23:04 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:23:24 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:23:24 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:23:34 [error]: 500 Operation `users.findOne()` buffering timed out after 10000ms — POST /api/v1/auth/register | MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\GFG0790\OneDrive\Desktop\CRM\backend\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:187:23)
+    at listOnTimeout (node:internal/timers:588:17)
+    at process.processTimers (node:internal/timers:523:7)
+2026-04-11 10:23:34 [http]: ::1 - - [11/Apr/2026:04:53:34 +0000] "POST /api/v1/auth/register HTTP/1.1" 500 525 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 10:23:46 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:23:46 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:24:06 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:24:06 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:24:26 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:24:26 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:24:47 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:24:47 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:25:07 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:25:07 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:25:27 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:25:27 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:25:48 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:25:48 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:26:04 [error]: 500 Operation `users.findOne()` buffering timed out after 10000ms — POST /api/v1/auth/register | MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\GFG0790\OneDrive\Desktop\CRM\backend\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:187:23)
+    at listOnTimeout (node:internal/timers:588:17)
+    at process.processTimers (node:internal/timers:523:7)
+2026-04-11 10:26:04 [http]: ::1 - - [11/Apr/2026:04:56:04 +0000] "POST /api/v1/auth/register HTTP/1.1" 500 525 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 10:26:08 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:26:08 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:26:28 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:26:28 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:26:49 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:26:49 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:27:09 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:27:09 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:27:29 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:27:29 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:27:53 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:27:53 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:28:13 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:28:13 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:28:34 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:28:34 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:28:54 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:28:54 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:29:14 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:29:14 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:29:35 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:29:35 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:39:14 [info]: Bull Board mounted at /admin/queues
+2026-04-11 10:39:14 [info]: API server running on port 5000 [development]
+2026-04-11 10:39:14 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-11 10:39:14 [info]: Queue dashboard: http://localhost:5000/admin/queues
+2026-04-11 10:39:14 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-11 10:39:14 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-11 10:39:14 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-11 10:39:14 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-11 10:39:24 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:39:24 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:39:45 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:39:45 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:40:05 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:40:05 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:40:25 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:40:25 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:40:46 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:40:46 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:41:06 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:41:06 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:41:26 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:41:26 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:41:47 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:41:47 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:42:07 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:42:07 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:42:27 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:42:27 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:42:48 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:42:48 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:43:08 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:43:08 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:43:28 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:43:28 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:43:48 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:43:48 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:44:09 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:44:09 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:44:29 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:44:29 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:44:49 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:44:49 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:45:10 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:45:10 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:45:30 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:45:30 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:45:50 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:45:50 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:46:12 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:46:12 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:46:32 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:46:32 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:46:52 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:46:52 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:47:13 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:47:13 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:47:33 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:47:33 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:47:53 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:47:53 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:48:14 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:48:14 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:48:34 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:48:34 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:48:54 [error]: MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2026-04-11 10:48:54 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 10:49:05 [info]: MongoDB connected: ac-2yccfm8-shard-00-00.k68eknu.mongodb.net
+2026-04-11 10:56:51 [http]: ::1 - - [11/Apr/2026:05:26:51 +0000] "POST /api/v1/auth/register HTTP/1.1" 201 509 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 10:56:51 [http]: ::1 - - [11/Apr/2026:05:26:51 +0000] "GET /api/v1/dashboard HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 11:00:12 [http]: ::1 - - [11/Apr/2026:05:30:12 +0000] "GET /api/v1/dashboard HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 11:53:32 [http]: ::1 - - [11/Apr/2026:06:23:32 +0000] "GET /api/v1/dashboard HTTP/1.1" 401 50 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 11:53:32 [http]: ::1 - - [11/Apr/2026:06:23:32 +0000] "POST /api/v1/auth/refresh HTTP/1.1" 200 310 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 11:53:32 [http]: ::1 - - [11/Apr/2026:06:23:32 +0000] "GET /api/v1/dashboard HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 11:55:34 [http]: ::1 - - [11/Apr/2026:06:25:34 +0000] "GET /api/v1/dashboard HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 11:55:35 [http]: ::1 - - [11/Apr/2026:06:25:35 +0000] "GET /api/v1/leads?page=1&limit=10&search=&stage= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 11:55:53 [http]: ::1 - - [11/Apr/2026:06:25:53 +0000] "POST /api/v1/leads HTTP/1.1" 422 168 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 11:56:39 [http]: ::1 - - [11/Apr/2026:06:26:39 +0000] "GET /api/v1/leads?page=1&limit=10&search=&stage= HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 11:56:39 [http]: ::1 - - [11/Apr/2026:06:26:39 +0000] "GET /api/v1/leads?page=1&limit=10 HTTP/1.1" 200 100 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 11:57:08 [http]: ::1 - - [11/Apr/2026:06:27:08 +0000] "GET /api/v1/leads?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 12:00:50 [http]: ::1 - - [11/Apr/2026:06:30:50 +0000] "GET /api/v1/leads?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 12:02:31 [http]: ::1 - - [11/Apr/2026:06:32:31 +0000] "POST /api/v1/leads HTTP/1.1" 422 168 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 12:04:45 [http]: ::1 - - [11/Apr/2026:06:34:45 +0000] "POST /api/v1/leads HTTP/1.1" 422 168 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 12:07:03 [http]: ::1 - - [11/Apr/2026:06:37:03 +0000] "GET /api/v1/leads?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 12:10:11 [info]: Bull Board mounted at /admin/queues
+2026-04-11 12:10:11 [info]: API server running on port 5000 [development]
+2026-04-11 12:10:11 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-11 12:10:11 [info]: Queue dashboard: http://localhost:5000/admin/queues
+2026-04-11 12:10:11 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-11 12:10:11 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-11 12:10:11 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-11 12:10:11 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-11 12:10:21 [info]: Bull Board mounted at /admin/queues
+2026-04-11 12:10:21 [info]: API server running on port 5000 [development]
+2026-04-11 12:10:21 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-11 12:10:21 [info]: Queue dashboard: http://localhost:5000/admin/queues
+2026-04-11 12:10:21 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-11 12:10:21 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-11 12:10:21 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-11 12:10:21 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-11 12:10:23 [http]: ::1 - - [11/Apr/2026:06:40:23 +0000] "GET /api/v1/leads?page=1&limit=10 HTTP/1.1" 401 50 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 12:10:31 [error]: MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-04-11 12:10:31 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 12:10:33 [error]: 500 Operation `users.findOne()` buffering timed out after 10000ms — POST /api/v1/auth/refresh | MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\GFG0790\OneDrive\Desktop\CRM\backend\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:187:23)
+    at listOnTimeout (node:internal/timers:588:17)
+    at process.processTimers (node:internal/timers:523:7)
+2026-04-11 12:10:33 [http]: ::1 - - [11/Apr/2026:06:40:33 +0000] "POST /api/v1/auth/refresh HTTP/1.1" 500 525 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 12:10:38 [info]: Bull Board mounted at /admin/queues
+2026-04-11 12:10:38 [info]: API server running on port 5000 [development]
+2026-04-11 12:10:38 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-11 12:10:38 [info]: Queue dashboard: http://localhost:5000/admin/queues
+2026-04-11 12:10:38 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-11 12:10:39 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-11 12:10:39 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-11 12:10:39 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-11 12:10:48 [error]: MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-04-11 12:10:48 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 12:10:53 [info]: Bull Board mounted at /admin/queues
+2026-04-11 12:10:53 [info]: API server running on port 5000 [development]
+2026-04-11 12:10:53 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-11 12:10:53 [info]: Queue dashboard: http://localhost:5000/admin/queues
+2026-04-11 12:10:53 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-11 12:10:53 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-11 12:10:53 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-11 12:10:53 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-11 12:11:05 [info]: Bull Board mounted at /admin/queues
+2026-04-11 12:11:05 [info]: API server running on port 5000 [development]
+2026-04-11 12:11:05 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-11 12:11:05 [info]: Queue dashboard: http://localhost:5000/admin/queues
+2026-04-11 12:11:05 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-11 12:11:05 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-11 12:11:05 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-11 12:11:05 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-11 12:11:15 [error]: MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-04-11 12:11:15 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 12:11:22 [info]: Bull Board mounted at /admin/queues
+2026-04-11 12:11:22 [info]: API server running on port 5000 [development]
+2026-04-11 12:11:22 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-11 12:11:22 [info]: Queue dashboard: http://localhost:5000/admin/queues
+2026-04-11 12:11:22 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-11 12:11:22 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-11 12:11:22 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-11 12:11:22 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-11 12:11:33 [info]: Bull Board mounted at /admin/queues
+2026-04-11 12:11:33 [info]: API server running on port 5000 [development]
+2026-04-11 12:11:33 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-11 12:11:33 [info]: Queue dashboard: http://localhost:5000/admin/queues
+2026-04-11 12:11:33 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-11 12:11:33 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-11 12:11:33 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-11 12:11:33 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-11 12:11:43 [error]: MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-04-11 12:11:43 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 12:11:58 [info]: Bull Board mounted at /admin/queues
+2026-04-11 12:11:58 [info]: API server running on port 5000 [development]
+2026-04-11 12:11:58 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-11 12:11:58 [info]: Queue dashboard: http://localhost:5000/admin/queues
+2026-04-11 12:11:58 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-11 12:11:58 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-11 12:11:58 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-11 12:11:58 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-11 12:12:08 [error]: MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-04-11 12:12:08 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 12:12:28 [error]: MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-04-11 12:12:28 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 12:12:48 [error]: MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-04-11 12:12:48 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 12:13:08 [error]: MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-04-11 12:13:08 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 12:13:28 [error]: MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-04-11 12:13:28 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 12:13:48 [error]: MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-04-11 12:13:48 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 12:14:08 [error]: MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-04-11 12:14:08 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 12:14:28 [error]: MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-04-11 12:14:28 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 12:14:48 [error]: MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-04-11 12:14:48 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 12:15:08 [error]: MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-04-11 12:15:08 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 12:15:28 [error]: MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-04-11 12:15:28 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 12:15:48 [error]: MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-04-11 12:15:48 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 12:16:08 [error]: MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-04-11 12:16:08 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 12:16:28 [error]: MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-04-11 12:16:28 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 12:16:48 [error]: MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-04-11 12:16:48 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 12:17:08 [error]: MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-04-11 12:17:08 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 12:17:28 [error]: MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-04-11 12:17:28 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 12:17:48 [error]: MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-04-11 12:17:48 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 12:18:08 [error]: MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-04-11 12:18:08 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 12:18:29 [error]: MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-04-11 12:18:29 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 12:18:49 [error]: MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-04-11 12:18:49 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 12:19:09 [error]: MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-04-11 12:19:09 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 12:19:29 [error]: MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-04-11 12:19:29 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 12:19:49 [error]: MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-04-11 12:19:49 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 12:20:09 [error]: MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-04-11 12:20:09 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 12:20:29 [error]: MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-04-11 12:20:29 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 12:20:49 [error]: MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-04-11 12:20:49 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 12:21:09 [error]: MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-04-11 12:21:09 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 12:21:29 [error]: MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-04-11 12:21:29 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 12:21:49 [error]: MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-04-11 12:21:49 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 12:22:09 [error]: MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-04-11 12:22:09 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 12:22:29 [error]: MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-04-11 12:22:29 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 12:22:40 [info]: Bull Board mounted at /admin/queues
+2026-04-11 12:22:40 [info]: API server running on port 5000 [development]
+2026-04-11 12:22:40 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-11 12:22:40 [info]: Queue dashboard: http://localhost:5000/admin/queues
+2026-04-11 12:22:40 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-11 12:22:40 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-11 12:22:40 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-11 12:22:40 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-11 12:22:50 [error]: MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-04-11 12:22:50 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 12:23:10 [error]: MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-04-11 12:23:10 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 12:23:30 [error]: MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-04-11 12:23:30 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 12:23:35 [info]: Bull Board mounted at /admin/queues
+2026-04-11 12:23:35 [info]: API server running on port 5000 [development]
+2026-04-11 12:23:35 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-11 12:23:35 [info]: Queue dashboard: http://localhost:5000/admin/queues
+2026-04-11 12:23:35 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-11 12:23:35 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-11 12:23:35 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-11 12:23:35 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-11 12:23:42 [info]: Bull Board mounted at /admin/queues
+2026-04-11 12:23:42 [info]: API server running on port 5000 [development]
+2026-04-11 12:23:42 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-11 12:23:42 [info]: Queue dashboard: http://localhost:5000/admin/queues
+2026-04-11 12:23:42 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-11 12:23:42 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-11 12:23:42 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-11 12:23:42 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-11 12:23:52 [error]: MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-04-11 12:23:52 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 12:24:12 [error]: MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-04-11 12:24:12 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 12:24:32 [error]: MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-04-11 12:24:32 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 12:24:52 [error]: MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-04-11 12:24:52 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 12:25:12 [error]: MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-04-11 12:25:12 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 12:25:32 [error]: MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-04-11 12:25:32 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 12:25:52 [error]: MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-04-11 12:25:52 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 12:26:12 [error]: MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-04-11 12:26:12 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 12:26:32 [error]: MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+2026-04-11 12:26:32 [warn]: Retrying MongoDB connection in 10 seconds...
+2026-04-11 12:26:36 [info]: Bull Board mounted at /admin/queues
+2026-04-11 12:26:37 [info]: API server running on port 5000 [development]
+2026-04-11 12:26:37 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-11 12:26:37 [info]: Queue dashboard: http://localhost:5000/admin/queues
+2026-04-11 12:26:37 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-11 12:26:37 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-11 12:26:37 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-11 12:26:37 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-11 12:26:37 [info]: MongoDB connected: ac-2yccfm8-shard-00-01.k68eknu.mongodb.net
+2026-04-11 12:26:53 [info]: Bull Board mounted at /admin/queues
+2026-04-11 12:26:53 [info]: API server running on port 5000 [development]
+2026-04-11 12:26:53 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-11 12:26:53 [info]: Queue dashboard: http://localhost:5000/admin/queues
+2026-04-11 12:26:53 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-11 12:26:53 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-11 12:26:53 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-11 12:26:53 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-11 12:26:53 [info]: MongoDB connected: ac-2yccfm8-shard-00-02.k68eknu.mongodb.net
+2026-04-11 12:27:05 [info]: Bull Board mounted at /admin/queues
+2026-04-11 12:27:05 [info]: API server running on port 5000 [development]
+2026-04-11 12:27:06 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-11 12:27:06 [info]: Queue dashboard: http://localhost:5000/admin/queues
+2026-04-11 12:27:06 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-11 12:27:06 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-11 12:27:06 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-11 12:27:06 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-11 12:27:06 [info]: MongoDB connected: ac-2yccfm8-shard-00-00.k68eknu.mongodb.net
+2026-04-11 12:29:20 [info]: Bull Board mounted at /admin/queues
+2026-04-11 12:29:20 [info]: API server running on port 5000 [development]
+2026-04-11 12:29:20 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-11 12:29:20 [info]: Queue dashboard: http://localhost:5000/admin/queues
+2026-04-11 12:29:20 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-11 12:29:20 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-11 12:29:20 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-11 12:29:20 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-11 12:29:21 [info]: MongoDB connected: ac-2yccfm8-shard-00-00.k68eknu.mongodb.net
+2026-04-11 12:31:22 [http]: ::1 - - [11/Apr/2026:07:01:22 +0000] "POST /api/v1/auth/register HTTP/1.1" 201 476 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 12:31:23 [http]: ::1 - - [11/Apr/2026:07:01:23 +0000] "GET /api/v1/dashboard HTTP/1.1" 200 321 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 12:31:36 [http]: ::1 - - [11/Apr/2026:07:01:36 +0000] "GET /api/v1/leads?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 12:32:42 [http]: ::1 - - [11/Apr/2026:07:02:42 +0000] "POST /api/v1/leads HTTP/1.1" 201 725 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 12:32:42 [http]: ::1 - - [11/Apr/2026:07:02:42 +0000] "GET /api/v1/leads?page=1&limit=10 HTTP/1.1" 200 767 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 12:33:31 [http]: ::1 - - [11/Apr/2026:07:03:31 +0000] "GET /api/v1/leads?page=1&limit=10 HTTP/1.1" 200 100 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 12:33:41 [http]: ::1 - - [11/Apr/2026:07:03:41 +0000] "POST /api/v1/leads HTTP/1.1" 201 512 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 12:33:41 [http]: ::1 - - [11/Apr/2026:07:03:41 +0000] "GET /api/v1/leads?page=1&limit=10 HTTP/1.1" 200 554 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 12:34:55 [http]: ::1 - - [11/Apr/2026:07:04:55 +0000] "GET /api/v1/leads?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 12:35:04 [http]: ::1 - - [11/Apr/2026:07:05:04 +0000] "GET /api/v1/deals/pipeline HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 12:35:07 [http]: ::1 - - [11/Apr/2026:07:05:07 +0000] "GET /api/v1/contacts?page=1&limit=10 HTTP/1.1" 200 100 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 12:35:08 [http]: ::1 - - [11/Apr/2026:07:05:08 +0000] "GET /api/v1/accounts?page=1&limit=10 HTTP/1.1" 200 100 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 12:35:10 [http]: ::1 - - [11/Apr/2026:07:05:10 +0000] "GET /api/v1/activities?page=1&limit=15 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 12:35:11 [http]: ::1 - - [11/Apr/2026:07:05:11 +0000] "GET /api/v1/leads?limit=50 HTTP/1.1" 200 554 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 12:35:18 [http]: ::1 - - [11/Apr/2026:07:05:18 +0000] "GET /api/v1/audit-logs?page=1&limit=50 HTTP/1.1" 200 1744 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 12:35:20 [http]: ::1 - - [11/Apr/2026:07:05:20 +0000] "GET /api/v1/users?page=1&limit=10 HTTP/1.1" 200 408 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 12:35:23 [http]: ::1 - - [11/Apr/2026:07:05:23 +0000] "GET /api/v1/dashboard HTTP/1.1" 200 344 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 12:35:35 [http]: ::1 - - [11/Apr/2026:07:05:35 +0000] "GET /api/v1/leads?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 12:37:03 [http]: ::1 - - [11/Apr/2026:07:07:03 +0000] "GET /api/v1/leads?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 12:37:05 [http]: ::1 - - [11/Apr/2026:07:07:05 +0000] "POST /api/v1/auth/refresh HTTP/1.1" 200 311 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 12:37:06 [http]: ::1 - - [11/Apr/2026:07:07:06 +0000] "POST /api/v1/auth/refresh HTTP/1.1" 200 311 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 12:37:06 [http]: ::1 - - [11/Apr/2026:07:07:06 +0000] "GET /api/v1/leads?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 12:37:20 [http]: ::1 - - [11/Apr/2026:07:07:20 +0000] "POST /api/v1/leads HTTP/1.1" 201 512 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 12:37:20 [http]: ::1 - - [11/Apr/2026:07:07:20 +0000] "GET /api/v1/leads?page=1&limit=10 HTTP/1.1" 200 1009 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 12:38:33 [http]: ::1 - - [11/Apr/2026:07:08:33 +0000] "GET /api/v1/leads?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 12:39:24 [http]: ::1 - - [11/Apr/2026:07:09:24 +0000] "GET /api/v1/leads?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 12:42:38 [http]: ::1 - - [11/Apr/2026:07:12:38 +0000] "GET /api/v1/leads?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 12:43:41 [http]: ::1 - - [11/Apr/2026:07:13:41 +0000] "GET /api/v1/leads?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 12:48:23 [http]: ::1 - - [11/Apr/2026:07:18:23 +0000] "GET /api/v1/leads?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 12:49:48 [http]: ::1 - - [11/Apr/2026:07:19:48 +0000] "GET /api/v1/leads?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 12:50:03 [http]: ::1 - - [11/Apr/2026:07:20:03 +0000] "GET /api/v1/leads?page=1&limit=15 HTTP/1.1" 200 1009 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 12:53:23 [http]: ::1 - - [11/Apr/2026:07:23:23 +0000] "GET /api/v1/leads?page=1&limit=15 HTTP/1.1" 401 50 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 12:53:23 [http]: ::1 - - [11/Apr/2026:07:23:23 +0000] "POST /api/v1/auth/refresh HTTP/1.1" 200 311 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 12:53:24 [http]: ::1 - - [11/Apr/2026:07:23:24 +0000] "GET /api/v1/leads?page=1&limit=15 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 12:55:12 [http]: ::1 - - [11/Apr/2026:07:25:12 +0000] "GET /api/v1/leads?page=1&limit=15 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 13:59:30 [http]: ::1 - - [11/Apr/2026:08:29:30 +0000] "GET /api/v1/leads?page=1&limit=15 HTTP/1.1" 401 50 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 13:59:40 [error]: 500 48490000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:916:SSL alert number 80
+ — POST /api/v1/auth/refresh | MongoServerSelectionError: 48490000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:916:SSL alert number 80
+
+    at Topology.selectServer (C:\Users\GFG0790\OneDrive\Desktop\CRM\backend\node_modules\mongodb\lib\sdam\topology.js:327:38)
+    at async tryOperation (C:\Users\GFG0790\OneDrive\Desktop\CRM\backend\node_modules\mongodb\lib\operations\execute_operation.js:148:18)
+    at async executeOperation (C:\Users\GFG0790\OneDrive\Desktop\CRM\backend\node_modules\mongodb\lib\operations\execute_operation.js:78:16)
+    at async FindCursor._initialize (C:\Users\GFG0790\OneDrive\Desktop\CRM\backend\node_modules\mongodb\lib\cursor\find_cursor.js:62:26)
+    at async FindCursor.cursorInit (C:\Users\GFG0790\OneDrive\Desktop\CRM\backend\node_modules\mongodb\lib\cursor\abstract_cursor.js:632:27)
+    at async FindCursor.fetchBatch (C:\Users\GFG0790\OneDrive\Desktop\CRM\backend\node_modules\mongodb\lib\cursor\abstract_cursor.js:666:13)
+    at async FindCursor.next (C:\Users\GFG0790\OneDrive\Desktop\CRM\backend\node_modules\mongodb\lib\cursor\abstract_cursor.js:342:17)
+    at async Collection.findOne (C:\Users\GFG0790\OneDrive\Desktop\CRM\backend\node_modules\mongodb\lib\collection.js:313:24)
+    at async model.Query._findOne (C:\Users\GFG0790\OneDrive\Desktop\CRM\backend\node_modules\mongoose\lib\query.js:2710:15)
+    at async model.Query.exec (C:\Users\GFG0790\OneDrive\Desktop\CRM\backend\node_modules\mongoose\lib\query.js:4627:63)
+2026-04-11 13:59:40 [http]: ::1 - - [11/Apr/2026:08:29:40 +0000] "POST /api/v1/auth/refresh HTTP/1.1" 500 2023 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 14:37:45 [error]: 500 48490000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:916:SSL alert number 80
+ — POST /api/v1/auth/register | MongoServerSelectionError: 48490000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:916:SSL alert number 80
+
+    at Topology.selectServer (C:\Users\GFG0790\OneDrive\Desktop\CRM\backend\node_modules\mongodb\lib\sdam\topology.js:327:38)
+    at async tryOperation (C:\Users\GFG0790\OneDrive\Desktop\CRM\backend\node_modules\mongodb\lib\operations\execute_operation.js:148:18)
+    at async executeOperation (C:\Users\GFG0790\OneDrive\Desktop\CRM\backend\node_modules\mongodb\lib\operations\execute_operation.js:78:16)
+    at async FindCursor._initialize (C:\Users\GFG0790\OneDrive\Desktop\CRM\backend\node_modules\mongodb\lib\cursor\find_cursor.js:62:26)
+    at async FindCursor.cursorInit (C:\Users\GFG0790\OneDrive\Desktop\CRM\backend\node_modules\mongodb\lib\cursor\abstract_cursor.js:632:27)
+    at async FindCursor.fetchBatch (C:\Users\GFG0790\OneDrive\Desktop\CRM\backend\node_modules\mongodb\lib\cursor\abstract_cursor.js:666:13)
+    at async FindCursor.next (C:\Users\GFG0790\OneDrive\Desktop\CRM\backend\node_modules\mongodb\lib\cursor\abstract_cursor.js:342:17)
+    at async Collection.findOne (C:\Users\GFG0790\OneDrive\Desktop\CRM\backend\node_modules\mongodb\lib\collection.js:313:24)
+    at async model.Query._findOne (C:\Users\GFG0790\OneDrive\Desktop\CRM\backend\node_modules\mongoose\lib\query.js:2710:15)
+    at async model.Query.exec (C:\Users\GFG0790\OneDrive\Desktop\CRM\backend\node_modules\mongoose\lib\query.js:4627:63)
+2026-04-11 14:37:45 [http]: ::1 - - [11/Apr/2026:09:07:45 +0000] "POST /api/v1/auth/register HTTP/1.1" 500 2023 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 14:39:28 [warn]: MongoDB disconnected
+2026-04-11 14:39:29 [info]: MongoDB reconnected
+2026-04-11 14:40:17 [http]: ::1 - - [11/Apr/2026:09:10:17 +0000] "POST /api/v1/auth/register HTTP/1.1" 201 482 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 14:40:18 [http]: ::1 - - [11/Apr/2026:09:10:18 +0000] "GET /api/v1/dashboard HTTP/1.1" 200 321 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 14:40:46 [http]: ::1 - - [11/Apr/2026:09:10:46 +0000] "GET /api/v1/leads?page=1&limit=15 HTTP/1.1" 200 100 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 14:41:11 [http]: ::1 - - [11/Apr/2026:09:11:11 +0000] "POST /api/v1/leads HTTP/1.1" 201 532 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 14:41:11 [http]: ::1 - - [11/Apr/2026:09:11:11 +0000] "GET /api/v1/leads?page=1&limit=15 HTTP/1.1" 200 574 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 14:42:10 [http]: ::1 - - [11/Apr/2026:09:12:10 +0000] "GET /api/v1/leads?page=1&limit=15 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 14:42:41 [http]: ::1 - - [11/Apr/2026:09:12:41 +0000] "GET /api/v1/leads?page=1&limit=15 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 14:43:35 [info]: Bull Board mounted at /admin/queues
+2026-04-11 14:43:35 [info]: API server running on port 5000 [development]
+2026-04-11 14:43:35 [info]: Swagger docs: http://localhost:5000/api/v1/docs
+2026-04-11 14:43:35 [info]: Queue dashboard: http://localhost:5000/admin/queues
+2026-04-11 14:43:35 [warn]: Queue [email] Redis unavailable — jobs will be skipped
+2026-04-11 14:43:35 [warn]: Queue [ai-processing] Redis unavailable — jobs will be skipped
+2026-04-11 14:43:35 [warn]: Queue [reminders] Redis unavailable — jobs will be skipped
+2026-04-11 14:43:35 [warn]: Queue [notifications] Redis unavailable — jobs will be skipped
+2026-04-11 14:43:36 [info]: MongoDB connected: ac-2yccfm8-shard-00-01.k68eknu.mongodb.net
+2026-04-11 14:43:39 [http]: ::1 - - [11/Apr/2026:09:13:39 +0000] "GET /api/v1/leads?page=1&limit=15 HTTP/1.1" 200 733 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 14:44:03 [http]: ::1 - - [11/Apr/2026:09:14:03 +0000] "POST /api/v1/ai/email-generator HTTP/1.1" 200 562 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 14:44:35 [http]: ::1 - - [11/Apr/2026:09:14:35 +0000] "PATCH /api/v1/leads/69da102f798453f779f7c5b3 HTTP/1.1" 200 677 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 14:44:35 [http]: ::1 - - [11/Apr/2026:09:14:35 +0000] "GET /api/v1/leads?page=1&limit=15 HTTP/1.1" 200 729 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 14:44:35 [http]: ::1 - - [11/Apr/2026:09:14:35 +0000] "GET /api/v1/leads?page=1&limit=15 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 14:44:45 [http]: ::1 - - [11/Apr/2026:09:14:45 +0000] "GET /api/v1/deals/pipeline HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 14:44:53 [http]: ::1 - - [11/Apr/2026:09:14:53 +0000] "GET /api/v1/deals?page=1&limit=15 HTTP/1.1" 200 110 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 14:45:13 [http]: ::1 - - [11/Apr/2026:09:15:13 +0000] "POST /api/v1/deals HTTP/1.1" 201 630 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 14:45:14 [http]: ::1 - - [11/Apr/2026:09:15:14 +0000] "GET /api/v1/deals?page=1&limit=15 HTTP/1.1" 200 794 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 14:45:14 [http]: ::1 - - [11/Apr/2026:09:15:14 +0000] "GET /api/v1/deals?page=1&limit=15 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 14:45:14 [http]: ::1 - - [11/Apr/2026:09:15:14 +0000] "GET /api/v1/deals?page=1&limit=15 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 14:45:18 [http]: ::1 - - [11/Apr/2026:09:15:18 +0000] "GET /api/v1/contacts?page=1&limit=15 HTTP/1.1" 200 113 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 14:45:42 [http]: ::1 - - [11/Apr/2026:09:15:42 +0000] "POST /api/v1/contacts HTTP/1.1" 201 535 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 14:45:43 [http]: ::1 - - [11/Apr/2026:09:15:43 +0000] "GET /api/v1/contacts?page=1&limit=15 HTTP/1.1" 200 584 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 14:45:43 [http]: ::1 - - [11/Apr/2026:09:15:43 +0000] "GET /api/v1/contacts?page=1&limit=15 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 14:46:13 [http]: ::1 - - [11/Apr/2026:09:16:13 +0000] "GET /api/v1/dashboard HTTP/1.1" 200 394 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 14:46:18 [http]: ::1 - - [11/Apr/2026:09:16:18 +0000] "GET /api/v1/leads?page=1&limit=15 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 14:46:29 [http]: ::1 - - [11/Apr/2026:09:16:29 +0000] "GET /api/v1/contacts?page=1&limit=15 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 14:46:35 [http]: ::1 - - [11/Apr/2026:09:16:35 +0000] "GET /api/v1/deals/pipeline HTTP/1.1" 200 270 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 14:46:48 [http]: ::1 - - [11/Apr/2026:09:16:48 +0000] "POST /api/v1/ai/email-generator HTTP/1.1" 200 546 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 14:46:54 [http]: ::1 - - [11/Apr/2026:09:16:54 +0000] "GET /api/v1/users?page=1&limit=10 HTTP/1.1" 200 434 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
+2026-04-11 14:48:24 [http]: ::1 - - [11/Apr/2026:09:18:24 +0000] "GET /api/v1/users?page=1&limit=10 HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"
